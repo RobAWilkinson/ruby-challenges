@@ -2,11 +2,12 @@ require_relative "../quiz"
 
 describe "divosor" do
   it "takes an integer and returns an array of its divosors" do
-    expect(divisor(6)).to eq([6,3,2,1,])
-    expect(divisor(10)).to eq([10,5,2,1])
+    expect(divisor(6)).to eq([1,2,3,6])
+    expect(divisor(10)).to eq([1,2,5,10])
     expect(divisor(1)).to eq([1])
     expect(divisor(27)).to eq([27,9,3,1])
-    expect(divisor(37)).to eq([37,1])
+    expect(divisor(27)).to eq([1,3,9,27])
+    expect(divisor(37)).to eq([1,37])
   end
 end
 describe "prime" do
