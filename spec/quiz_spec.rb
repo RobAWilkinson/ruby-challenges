@@ -5,7 +5,6 @@ describe "divosor" do
     expect(divisor(6)).to eq([1,2,3,6])
     expect(divisor(10)).to eq([1,2,5,10])
     expect(divisor(1)).to eq([1])
-    expect(divisor(27)).to eq([27,9,3,1])
     expect(divisor(27)).to eq([1,3,9,27])
     expect(divisor(37)).to eq([1,37])
   end
